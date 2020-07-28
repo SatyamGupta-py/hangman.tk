@@ -1,10 +1,9 @@
 import random
+from hangMan import display_hangman
 from WordList import Words
 from tkinter import *
 
 game = Tk()
-
-
 game.title("HangMan")
 game.geometry('1280x720')
 
@@ -17,14 +16,13 @@ name.grid(column=5, row=3, pady=7)
 
 def name_submitted():
     if name.get().isalpha():
-        clear = Label(game, text="                                             ")
-        clear.grid(column=6, row=3)
         msg = Label(game, text="Let's Play HangMan " + name.get())
         msg.grid(column=5, row=3)
+        name_bt.destroy()
     else:
-        msg = Label(game, text="Please Enter A Valid Name")
-        msg.grid(column=6, row=3)
-
+        msg_1 = Label(game, text="Please Enter A Valid Name")
+        msg_1.grid(column=6, row=3)
+        
 
 def get_random_word():
     word = random.choice(Words)
@@ -42,16 +40,7 @@ def game_logic(word):
     guessed_words = []
     tries = 6
 
-    hangman = Label(game, text=f"""
-                   --------
-                   |      |
-                   |      
-                   |    
-                   |      
-                   |     
-                   -
-            You Have {tries} Tries Left
-                """)
+    hangman = Label(game, text=display_hangman(tries))
     hangman.grid(column=8, row=3, rowspan=3, columnspan=3)
 
     print_dashes = Label(game, text=dashes)
@@ -70,16 +59,7 @@ def game_logic(word):
                 wrong_guess = Label(game, text=f"{guess} is not in the word")
                 wrong_guess.grid(column=5, row=5)
                 tries -= 1
-                hangman = Label(game, text=f"""
-                                   --------
-                                   |      |
-                                   |      O
-                                   |    
-                                   |      
-                                   |     
-                                   -
-                            You Have {tries} Tries Left
-                                """)
+                hangman = Label(game, text=display_hangman(tries))
                 hangman.grid(column=8, row=3, rowspan=3, columnspan=3)
                 guessed_letters.append(guess)
             else:
@@ -125,10 +105,16 @@ def main():
     play_again.grid(column=5, row=5)
 
     play_button = Button(game, text="Y/N")
-    play_button.gird(column=5, row=6)
+    play_button.grid(column=5, row=6)
     while play_again.get().upper() == "Y":
         word = get_random_word()
         game_logic(word)
 
 
 game.mainloop()
+
+
+if __name__ == "__main__":
+    main()
+
+
