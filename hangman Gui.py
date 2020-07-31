@@ -44,6 +44,7 @@ def a_btn():
                 guessed = True
             btn_a.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def b_btn():
@@ -66,6 +67,7 @@ def b_btn():
                 guessed = True
             btn_b.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def c_btn():
@@ -88,6 +90,7 @@ def c_btn():
                 guessed = True
             btn_c.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def d_btn():
@@ -110,6 +113,7 @@ def d_btn():
                 guessed = True
             btn_d.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def e_btn():
@@ -132,6 +136,7 @@ def e_btn():
                 guessed = True
             btn_e.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def f_btn():
@@ -154,6 +159,7 @@ def f_btn():
                 guessed = True
             btn_f.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def g_btn():
@@ -176,6 +182,7 @@ def g_btn():
                 guessed = True
             btn_g.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def h_btn():
@@ -198,6 +205,7 @@ def h_btn():
                 guessed = True
             btn_h.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def i_btn():
@@ -220,6 +228,7 @@ def i_btn():
                 guessed = True
             btn_i.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def j_btn():
@@ -242,6 +251,7 @@ def j_btn():
                 guessed = True
             btn_j.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def k_btn():
@@ -264,6 +274,7 @@ def k_btn():
                 guessed = True
             btn_k.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def l_btn():
@@ -286,6 +297,7 @@ def l_btn():
                 guessed = True
             btn_l.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def m_btn():
@@ -308,6 +320,7 @@ def m_btn():
                 guessed = True
             btn_m.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def n_btn():
@@ -330,6 +343,7 @@ def n_btn():
                 guessed = True
             btn_n.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def o_btn():
@@ -352,6 +366,7 @@ def o_btn():
                 guessed = True
             btn_o.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def p_btn():
@@ -374,6 +389,7 @@ def p_btn():
                 guessed = True
             btn_p.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def q_btn():
@@ -396,6 +412,7 @@ def q_btn():
                 guessed = True
             btn_q.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def r_btn():
@@ -418,6 +435,7 @@ def r_btn():
                 guessed = True
             btn_r.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def s_btn():
@@ -440,6 +458,7 @@ def s_btn():
                 guessed = True
             btn_s.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def t_btn():
@@ -462,6 +481,7 @@ def t_btn():
                 guessed = True
             btn_t.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def u_btn():
@@ -484,6 +504,7 @@ def u_btn():
                 guessed = True
             btn_u.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def v_btn():
@@ -506,6 +527,7 @@ def v_btn():
                 guessed = True
             btn_v.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def w_btn():
@@ -528,6 +550,7 @@ def w_btn():
                 guessed = True
             btn_w.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def x_btn():
@@ -550,6 +573,7 @@ def x_btn():
                 guessed = True
             btn_x.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def y_btn():
@@ -572,6 +596,7 @@ def y_btn():
                 guessed = True
             btn_y.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 def z_btn():
@@ -594,6 +619,7 @@ def z_btn():
                 guessed = True
             btn_z.destroy()
             printDashes.configure(text=dashes, font=("Arial", 30))
+            break
 
 
 btn_a = Button(game, text='A', width=12, command=a_btn)
@@ -648,6 +674,8 @@ btn_y = Button(game, text='Y', width=12, command=y_btn)
 btn_y.place(x=a*11, y=710)
 btn_z = Button(game, text='Z', width=12, command=z_btn)
 btn_z.place(x=a*12, y=710)
+
+
 
 
 
