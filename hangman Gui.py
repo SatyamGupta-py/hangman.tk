@@ -34,6 +34,7 @@ def a_btn():
             btn_a.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "A" in word:
             indices = [i for i, letter in enumerate(word) if letter == "A"]
             for index in indices:
@@ -55,6 +56,7 @@ def b_btn():
             btn_b.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "B" in word:
             indices = [i for i, letter in enumerate(word) if letter == "B"]
             for index in indices:
@@ -76,6 +78,7 @@ def c_btn():
             btn_c.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "C" in word:
             indices = [i for i, letter in enumerate(word) if letter == "C"]
             for index in indices:
@@ -97,6 +100,7 @@ def d_btn():
             btn_d.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "D" in word:
             indices = [i for i, letter in enumerate(word) if letter == "D"]
             for index in indices:
@@ -118,6 +122,7 @@ def e_btn():
             btn_e.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "E" in word:
             indices = [i for i, letter in enumerate(word) if letter == "E"]
             for index in indices:
@@ -139,6 +144,7 @@ def f_btn():
             btn_f.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "F" in word:
             indices = [i for i, letter in enumerate(word) if letter == "F"]
             for index in indices:
@@ -160,6 +166,7 @@ def g_btn():
             btn_g.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "G" in word:
             indices = [i for i, letter in enumerate(word) if letter == "G"]
             for index in indices:
@@ -181,6 +188,7 @@ def h_btn():
             btn_h.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "H" in word:
             indices = [i for i, letter in enumerate(word) if letter == "H"]
             for index in indices:
@@ -202,6 +210,7 @@ def i_btn():
             btn_i.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "I" in word:
             indices = [i for i, letter in enumerate(word) if letter == "I"]
             for index in indices:
@@ -223,6 +232,7 @@ def j_btn():
             btn_j.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "A" in word:
             indices = [i for i, letter in enumerate(word) if letter == "J"]
             for index in indices:
@@ -244,6 +254,7 @@ def k_btn():
             btn_k.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "K" in word:
             indices = [i for i, letter in enumerate(word) if letter == "K"]
             for index in indices:
@@ -265,6 +276,7 @@ def l_btn():
             btn_l.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "L" in word:
             indices = [i for i, letter in enumerate(word) if letter == "L"]
             for index in indices:
@@ -286,6 +298,7 @@ def m_btn():
             btn_m.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "M" in word:
             indices = [i for i, letter in enumerate(word) if letter == "M"]
             for index in indices:
@@ -307,6 +320,7 @@ def n_btn():
             btn_n.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "N" in word:
             indices = [i for i, letter in enumerate(word) if letter == "N"]
             for index in indices:
@@ -328,6 +342,7 @@ def o_btn():
             btn_o.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "O" in word:
             indices = [i for i, letter in enumerate(word) if letter == "O"]
             for index in indices:
@@ -349,6 +364,7 @@ def p_btn():
             btn_p.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "P" in word:
             indices = [i for i, letter in enumerate(word) if letter == "P"]
             for index in indices:
@@ -370,6 +386,7 @@ def q_btn():
             btn_q.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "Q" in word:
             indices = [i for i, letter in enumerate(word) if letter == "Q"]
             for index in indices:
@@ -391,6 +408,7 @@ def r_btn():
             btn_r.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "R" in word:
             indices = [i for i, letter in enumerate(word) if letter == "R"]
             for index in indices:
@@ -412,6 +430,7 @@ def s_btn():
             btn_s.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "S" in word:
             indices = [i for i, letter in enumerate(word) if letter == "S"]
             for index in indices:
@@ -433,6 +452,7 @@ def t_btn():
             btn_t.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "T" in word:
             indices = [i for i, letter in enumerate(word) if letter == "T"]
             for index in indices:
@@ -454,6 +474,7 @@ def u_btn():
             btn_u.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "U" in word:
             indices = [i for i, letter in enumerate(word) if letter == "U"]
             for index in indices:
@@ -475,6 +496,7 @@ def v_btn():
             btn_v.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "V" in word:
             indices = [i for i, letter in enumerate(word) if letter == "V"]
             for index in indices:
@@ -496,6 +518,7 @@ def w_btn():
             btn_w.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "W" in word:
             indices = [i for i, letter in enumerate(word) if letter == "W"]
             for index in indices:
@@ -517,6 +540,7 @@ def x_btn():
             btn_x.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "X" in word:
             indices = [i for i, letter in enumerate(word) if letter == "X"]
             for index in indices:
@@ -538,6 +562,7 @@ def y_btn():
             btn_y.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "Y" in word:
             indices = [i for i, letter in enumerate(word) if letter == "Y"]
             for index in indices:
@@ -559,6 +584,7 @@ def z_btn():
             btn_z.destroy()
             tries -= 1
             printTries.configure(text=f"You have {tries} tries left.", font=("Arial", 20))
+            break
         elif "Z" in word:
             indices = [i for i, letter in enumerate(word) if letter == "Z"]
             for index in indices:
