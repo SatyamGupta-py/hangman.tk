@@ -661,6 +661,4 @@ btn_z.place(x=a*12, y=710)
 
 
 
-
-
 game.mainloop()
