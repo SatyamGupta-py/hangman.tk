@@ -82,9 +82,9 @@ def get_random_word():
     return word.upper()
 
 
-def get_user_name(name):
-    print("Let's Play Hangman " + name, "\n", "Guess A Letter")
-    return name
+def get_user_name(name_1):
+    print("Let's Play Hangman " + name_1, "\n", "Guess A Letter")
+    return name_1
 
 
 def main_game(word):
@@ -93,8 +93,8 @@ def main_game(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    name = input("What Is Your Name: ")
-    get_user_name(name)
+    name_1 = input("What Is Your Name: ")
+    get_user_name(name_1)
     print(display_hangman(tries))
     print(dashes)
     print("\n")
